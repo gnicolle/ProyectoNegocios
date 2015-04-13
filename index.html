@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Momentos unicos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+       <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+         <meta
+        <meta name="viewport" content="width=device-width,initial-scale=1"/> 
+</head>
+<body>
+  <center> <img class="logo" src="img/logo.png"></center>
+<header>
+
+    <nav>
+        
+         <ul>
+            <li><a href="index.html"><span class=""></span>Inicio</a></li>
+            <li><a href="Eventos.html"><span class=""></span>Eventos</a></li>
+            <li><a href="paquetes.html"><span class=""></i></span>Paquetes</a></li>
+            <li><a href="contactos.html"><span class=""></i></span>Contactos</a></li>
+            <li><a href="Galeria.html"><span class=""></i></span>Galeria</a></li>
+        </ul>
+        
+    </nav>
+
+</header>
+
+<div class="todo">
+<div class="container">    
+    <div id="slider">
+<div><img src="img/banner.jpg"></div>
+<div><img src="img/banner2.jpg"></div>
+<div><img src="img/banner3.jpg"></div>
+
+ </div>
+</div>
+<div class="info">
+ <h1>Momentos Unicos</h1>
+            <h3></br></br>Somos una empresa cristiana dedicada a la elaboracion de tarjetas de invitacion,arreglos florales,decoracion de iglesias y salones,ramos de novia, accesorios de boda, alquiler de mobiliario y cristaleria , servicios de banquetes y boquitas fotografia profesional y pasteles para eventos. Aceptamos todas la tarjetas de Credito y Debito. 
+sera un placer atenderte!!:)</h3>
+
+</div>
+
+<div class="container2">
+<img src="img/anillos.PNG" align="right" >
+ <h1>Bodas</h1>
+        <h3></br>¿No sabes por dónde empezar a organizar tu boda? La organización de una boda no es tarea sencilla, pero ¡no te aflijas!.Pero sobre todo no te estreses y tómalo con calma! ya que nosotros tenemos la solucion para que sea la boda que siempre soñaste.</>
+</div> 
+
+
+<div class="container3">
+        <h1>Eventos Especiales</h1>
+<img  src="img/champagne.PNG" align="left">
+</div>
+
+<div class="container4">
+        <h1>Paquetes Familiares</h1>
+<img  src="img/promocion2.jpg" align="left">
+</div>
+<div class="container5">
+        <h1>Descuentos</h1>
+<img  src="img/promocion3.jpg" align="left">
+</div>
+
+
+</div>
+<script type="text/javascript">
+  $(function(){
+    $('#slider div:gt(0)').hide;
+    setInterval(function()
+                {
+                  $('#slider div:first-child').fadeOut(1000)
+                  .next('div').fadeIn(1000)
+                  .end().appendTo('#slider');
+                },2000);
+  
+})
+</script>
+
+</body>
+</html>

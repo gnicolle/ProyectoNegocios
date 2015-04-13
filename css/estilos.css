@@ -1,0 +1,278 @@
+body
+{
+    font-family: arial cursive , Verdana, Tahoma;
+    font-size: 12px;
+    width: 80em;
+    background-color: #D3D3D3;
+    overflow-x: hidden;
+       
+}
+
+h1{
+     font-family:  Lucida Calligraphy;
+     text-shadow:3px 4px 13px #c988db;
+}
+h3{
+    font-style: italic;
+    font-weight: normal;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 10em;
+    margin: 0 0 0 20em;
+}
+
+header
+{
+    top: 2em;
+
+   margin: 1em 0 0 27em;
+   width: 60em;
+   height: 7em;
+   overflow: hidden;
+   position: relative;
+}
+
+
+nav{
+     left: 0;
+    right: 0;
+    
+    position: absolute;
+    max-width: 80em;
+   width: 100%;
+   border-left: #000;
+}
+
+nav ul{
+    list-style: none;
+    
+    
+}
+
+nav >ul
+{
+
+    display:table;
+    width: 50em;
+    background: #D3D3D3;
+    position: relative;
+
+}
+nav >ul li
+{
+ display:table-cell; 
+    
+}
+
+nav > ul li a{
+    color: #000;
+    display: block;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    
+    box-shadow: 0.20em 0 0 0 #86008F;
+    -webkit-transition: all .3s ease;
+   -moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+    
+}
+
+nav>ul>li>ul a:hover{
+    background: #5da5a2;
+    
+}
+
+nav > ul > li a span
+{
+    background: rgba(254,46,247,0.07);
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    
+
+    position: absolute;
+    top:-55px;
+        -webkit-transition: all .3s ease;
+   -moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+
+
+nav > ul > li > a:hover > span
+{
+    
+    top: 0;
+    
+}
+
+.todo
+{
+    margin: 0 0 0 0;
+}
+
+
+.container{
+    
+     z-index: -1;
+    position: absolute;
+    margin: 5em 0 0 10em;
+    width: 65em;
+    height: 30em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0em 0.125em 0em 0.125em #610B5E;
+  -webkit-transform: skew(-3deg);
+    -moz-transform: skew(-3deg);
+}
+
+
+
+#slider > div img
+{
+    width: 64.8em;
+    height: 29.8em;
+    margin: 0;
+ 
+}
+
+   
+
+#slider > div
+{
+    
+    position: absolute;
+   width: 65em;
+    height: 30em;
+
+}
+
+.todo .info
+{
+   
+padding: 1em;
+position: absolute;
+ word-break: break-all;
+margin: 5em 0 0 75em;
+background-color:rgba(254,46,247,0.07);
+width: 20em;
+height: 28em;
+box-shadow: 0em 0.125em 0.125em 0.125em #610B5E;
+-webkit-transform: skew(-3deg);
+-moz-transform: skew(-3deg);
+
+
+}
+
+
+
+
+.container2{
+
+margin: 45em 0 0 09em; 
+    position: absolute;
+
+    padding: 1em 0 0 1em;
+    width: 87em;
+    height:15em;
+    border: solid 0.0625em  #999;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0em 0.125em 0.125em 0.125em #610B5E;
+    word-break: break-all;
+    
+}
+
+
+.container2 img{
+    position: relative;
+    top: -5em;
+    left: 6em;
+    padding: 0em;
+    height: 26.375em;
+    width: 40.5em;
+    margin: 0em 0 30em 0;
+    float: right;
+      
+}
+
+.container3{
+
+    position: absolute;
+    padding: 1em;
+    width: 25.5em;
+    height: 32em;
+    border: solid 0.0625em  #999;
+    margin: 65em 0 0  09em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0em 0.125em 0.125em 0.125em #610B5E;
+     word-break: break-all;
+}
+
+
+.container3 img{
+    top: 6em;
+    position: absolute;
+    left: -18em;
+    padding: 1em;
+    float: left;
+    }
+.container4{
+
+    position: absolute;
+    padding: 1em;
+    width: 25.5em;
+    height: 32em;
+    border: solid 0.0625em  #999;
+    margin: 65em 0 0  38.7em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0em 0.125em 0.125em 0.125em #610B5E;
+     word-break: break-all;
+}
+
+.container4 img{
+    padding: 1em 1em 1em 0;
+    height: 26.375em;
+    width: 26em;
+    margin: 0 ;
+    float: left;
+      
+      
+}
+
+.container5{
+
+    position: absolute;
+    padding: 1em;
+    width: 25.5em;
+    height: 32em;
+    border: solid 0.0625em  #999;
+    margin: 65em 0 0  68.3em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0em 0.125em 0.125em 0.125em #610B5E;
+    word-break: break-all;
+}
+
+.container5 img{
+    padding: 1em;
+   height: 26.375em;
+    width: 25em;
+    margin: 0;
+    float: left;
+      
+}
+
+
+

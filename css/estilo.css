@@ -1,0 +1,157 @@
+.todo{
+  width:  67.5em;
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
+
+body{
+    background-color: #D3D3D3;
+     
+}
+
+
+.logo{
+    width: 10em;
+    
+}
+/*Esto es el estilo para el menu*/
+.menu{
+
+    display: table;
+}
+.menu ul{
+
+    list-style: none;
+}
+
+.menu   ul li
+{
+ display:inline-block;
+ 
+}
+
+.menu  ul li a{
+       display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    color: #000;
+    padding: 1.25em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu  ul li  :hover{
+    -webkit-transform:  scale(1.2);
+    -moz-transform: scale(1.2);
+    color: rgb(254,46,247);
+}
+
+/*Este es el estilo para Eventos*/
+.contenido{
+    margin: 0 0 0 5em;
+   
+    
+}
+.contenido img{
+    float: left;
+   
+    
+}
+.contenido .info{
+    word-break: break-all;
+    padding: 0;
+    margin: 0 1em 0 9em;
+}
+.contenido .info h1{
+    padding: 0;
+    margin: 0;
+}
+.contenido .barra{
+     z-index: -1;
+    position: absolute;
+    margin: 5em 0 0 10em;
+    width: 40em;
+    height: 10em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0.125em 0.125em 0.125em 0em #610B5E;
+}
+.limpiar{
+    clear: both;
+}
+
+.contenido2{
+    margin: 0 5em 0 0;
+   
+    
+}
+.contenido2 img{
+    float: right;
+   
+    
+}
+.contenido2 .info{
+    word-break: break-all;
+    padding: 0;
+    margin: 0 20em 0 1em;
+}
+.contenido2 .info h1{
+    padding: 0;
+    margin: 0;
+}
+.contenido2 .barra{
+     z-index: -1;
+    position: absolute;
+    margin: 8em 0 0 4em;
+    width: 45em;
+    height: 11em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0em 0.125em 0.125em 0.125em #610B5E;
+}
+
+
+
+
+.contenido3{
+    margin: 5em 0 0 5em;
+   
+    
+}
+.contenido3 img{
+    float: left;
+   
+    
+}
+.contenido3 .info{
+    word-break: break-all;
+    padding: 0;
+    margin: 0 1em 0 11em;
+}
+.contenido3 .info h1{
+    padding: 0;
+    margin: 0;
+}
+.contenido3 .barra{
+     z-index: -1;
+    position: absolute;
+    margin: 5em 0 0 10em;
+    width: 40em;
+    height: 10em;
+    background-color:rgba(254,46,247,0.07);
+    box-shadow: 0.125em 0.125em 0.125em 0em #610B5E;
+}
+
+
+
+.pie{
+    
+    margin: 10em 0 2em 0;
+    
+}
+
+.piee{
+    
+    margin: 38em 0 2em 0;
+    
+}

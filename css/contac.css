@@ -1,0 +1,134 @@
+body{
+    background-color: #D3D3D3;
+    width: 80em;
+  
+   
+}
+.logo{
+    width: 10em;
+    
+}
+header
+{
+    z-index: 2;
+    top: 2em;
+    margin: 1em 0 0 0;
+   width: 60em;
+   height: 7em;
+   overflow: hidden;
+   position: relative;
+}
+
+
+nav{
+     left: 0;
+    right: 0;
+    
+    position: absolute;
+    max-width: 80em;
+   width: 100%;
+   border-left: #000;
+}
+
+nav ul{
+    list-style: none;
+    
+    
+}
+
+nav >ul
+{
+
+    display:table;
+    width: 50em;
+    background: #D3D3D3;
+    position: relative;
+
+}
+nav >ul li
+{
+ display:table-cell; 
+    
+}
+
+nav > ul li a{
+    color: #000;
+    display: block;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    
+    box-shadow: 0.20em 0 0 0 #86008F;
+    -webkit-transition: all .3s ease;
+   -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+    
+}
+
+nav>ul>li>ul a:hover{
+    background: #5da5a2;
+    
+}
+
+nav > ul > li a span
+{
+    background: rgba(254,46,247,0.07);
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+
+    position: absolute;
+    top:-55px;
+        -webkit-transition: all .3s ease;
+   -moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+
+
+nav > ul > li > a:hover > span
+{
+    top: 0;
+    
+}
+
+.contenidoo .info h3{
+    margin: 0;
+    padding: 0;
+}
+.contenidoo .info h2{
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+.contenidoo .info h1{
+    margin: 0 0 1em 0;
+}
+
+.contenidoo{
+    
+    position: absolute;
+    margin: 2em 0 0 18em;
+    width: 50em;
+    height: 27em;
+    background-color:rgba(254,46,247,0.2);
+    box-shadow: 0px 2px 2px 2px #610B5E;
+    
+}
+
+.contenidoo .info{
+    margin: 0 2em 0 2em;
+    word-break: break-all;
+}
+
+.pieee{
+    word-break: break-all;
+    margin: 38em 0 2em 0;
+    
+}
